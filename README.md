@@ -19,11 +19,13 @@ Vamos parti do princípio que o seu server Zabbix está todo já configurado e o
 Note que o software já está monitorando a temperatura. No meu caso, ele está monitorando a temperatura dos 4 core da CPU.
 
 **4º Passo** - Marque as opções "*Start Minimized*", "*Log File*" e "*Minimize on Close*" e de OK.
+
 ![Title](images/2.jfif)
 
 **5º Passo** - O Real Temp irá coletar os dados da temperatura a cada 5 segundos e armazenar em um arquivo de Log, o Zabbix vai pegar o último valor coletado desse log e nos informar.
 
 Vamos abrir o arquivo de log *RealTempLog.txt*
+
 ![Title](images/3.jfif)
 
 Dentro do arquivo, vamos ter várias colunas como mostra a imagem, como minha CPU possuí 4 core, o programa vai listar a coluna CPU_0 até a CPU_3.
